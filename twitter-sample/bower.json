@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "description": "y",
+  "main": "y",
+  "authors": [
+    "y"
+  ],
+  "license": "y",
+  "keywords": [
+    "y"
+  ],
+  "moduleType": [],
+  "homepage": "y",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
