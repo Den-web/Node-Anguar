@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <form action="/user/create" method="post">
+            <input type="text" name="username" placeholder="Имя Пользователя"><br>
+            <input type="password" name="password" placeholder="Пароль"><br>
+            <input type="hidden" name="_csrf" value="<%= _csrf %>">
+            <!-- Поле которое можно удалить после создания администратора -->
+            <input type="hidden" name="admin" value="true">
+
+            <input type="submit" class="btn btn-success btn-block" value="Зарегистрироваться">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
