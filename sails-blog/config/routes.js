@@ -64,4 +64,10 @@ module.exports.routes = {
 
     '/register' : 'UserController',
 
+     '/login'    : 'SessionController',
+      '/logout'   : {
+        controller: 'session',
+        action: 'destroy'
+      }
+
 };
